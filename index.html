@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>exo</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- liens bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- icon fontawasome -->
+    <script
+      src="https://kit.fontawesome.com/14273d579a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <!-- language icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-md bg-dark bg-gradient navbar-dark fixed-top"
+      >
+        <div class="container">
+          <div
+            class="collapse navbar-collapse justify-content-start"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active"><a class="nav-link">Acceuil</a></li>
+              <li class="nav-item"><a class="nav-link">Menu</a></li>
+              <li class="nav-item"><a class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="d-md-none text-white">
+            <a>Commandez ici</a>
+            <p class=""><span style="color: gold">07</span> 49 93 21 47</p>
+          </div>
+
+          <div
+            class="d-flex d-md-block text-light justify-content-center align-items-center"
+          >
+            <img
+              src="./images/LOGO GOKU BURGER.png"
+              alt=""
+              width="70"
+              height="50"
+              class=""
+            />
+            <div class="d-md-block">
+              <p class="text-uppercase">Goku Burger</p>
+              <p class="d-none d-md-block">
+                <span style="color: gold">07</span> 49 93 21 47
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="d-none d-lg-flex p-5 justify-content-end fs-6"
+            style="font-family: NatureBeautyPersonalUse"
+          >
+            <button class="border border-warning border-5 p-2 m-2 fw-bold">
+              Notre Enseigne
+            </button>
+            <button class="border border-warning border-5 p-2 m-2 fw-bold">
+              Devenir Franchisé
+            </button>
+          </div>
+
+          <!-- burger-icon -->
+          <button
+            class="navbar-toggler justify-content-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- carousel -->
+      <section class="mt-5">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="./images/SS1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="./images/SS2.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- card -->
+      <section class="mt-5" style="width: 100%">
+        <div class="row m-sm-5">
+          <div class="col-12 col-md-4" style="margin-left: 3%">
+            <img
+              src="./images/RECTANGLE NOS MENUS.jpg"
+              width="100%"
+              height="100%"
+              id="card1"
+            />
+            <!-- <img id="abs" src="./images/SEYA.png" width="10%" /> -->
+          </div>
+          <div class="col-12 col-lg-7 mt-4 mt-lg-0">
+            <div class="row gy-4">
+              <div class="col-6">
+                <img
+                  src="./images/RECTANGLE NOS BURGERS.jpg"
+                  width="100%"
+                  height="180"
+                  id="card"
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  src="./images/RECTANGLE NOS BOISSONS.jpg"
+                  width="100%"
+                  height="180"
+                  id="card"
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  src="./images/RECTANGLE NOS BURGERS.jpg"
+                  width="100%"
+                  height="180"
+                  id="card"
+                />
+              </div>
+              <div class="col-6">
+                <img
+                  src="./images/RECTANGLE NOS STARTERS.jpg"
+                  width="100%"
+                  height="180"
+                  id="card"
+                />
+              </div>
+
+              <div class="">
+                <img
+                  src="./images/RECTANGLE MARDI_.jpg"
+                  width="100%"
+                  height="200"
+                  id="card3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="text-uppercase fw-bolder">
+      <div class="p-4">
+        <div class="row" id="liens">
+          <div class="col-3">
+            <ul>
+              <li>Nos Menus</li>
+              <li>nos burgers</li>
+              <li>nos sandwichs</li>
+              <li>nos starters</li>
+              <li>nos dessert</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li>informations légages</li>
+              <li>mention légales</li>
+              <li>politiques de confitionalités</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li>contactez-nous</li>
+              <li>notre enseigne</li>
+              <li>rejoindre goku burger</li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <ul>
+              <li>suivie</li>
+              <li>fb</li>
+              <li>ig</li>
+              <li>tiktok</li>
+              <li>youtube</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="justify-content-center text-center mt-5 ">
+          <p>copyright 2023 Powered by CKRF</p>
+          <p>Pour votre santé , pratiquer une activité physique regulière</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

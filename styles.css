@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0px;
+      list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(./images/FOND\ DESSIN_.jpg);
+    max-width: 1400px; 
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+footer{
+    background-image: url(./images/FOND\ JAUNE.jpg);
+    width: 100%;
+}
+
+header nav ul li a:hover{
+ color: gold;
+}
+
+#card{
+    box-shadow: 10px 5px 5px gray;
+    border-radius: 3%;
+}
+
+#abs{
+    position: absolute;
+    left: 25%;
+    top: 220%;
+}
+
+.end{
+    margin-top: 10%;
+}
+
+@media screen and (max-width:768px) {
+#card1{
+    width: 95%;
+}
+#card{
+    width: 90%;
+    height: 95%;
+    /* margin-left: 15px; */
+}
+#card3{
+    width: 95%;
+}
+    footer{
+        margin-top: 5%;
+        width: 100%;
+        font-size: 10px;
+
+    }
+
+    footer #liens{
+        display: flex;
+    }
+}
+
